@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.container{
+    background-color: #141d26;
+    width: 50vw;
+    height: 100%;
+    color: #eee;
+}
+.header{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    margin: 2%;
+}
+h4{
+    font-size: 20px;
+}
+.back-img img{
+    width: 100%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-bottom: 2%; */
+}
+.profile-pic{
+    position: relative;
+    margin: -13% 0 0 3%;
+}
+.profile-pic img{
+    width: 30%;
+    border-radius: 50%;
+}
+.following{
+    margin: 2% 20% 2% 0;
+    display: flex;
+    align-items: center;
+}
+.following i{
+    border: 1px solid #eee;
+    border-radius: 50%;
+    padding: 5%;
+    margin: 2%;
+}
+.following p{
+    border: 1px solid #eee;
+    border-radius: 2rem;
+    padding: 6%;
+    margin: 2%;
+}
+.profile-details{
+    margin: 3%;
+}
+.profile-name p{
+    color: gray;
+}
+.description{
+    margin: 2% 0;
+}
+.tags{
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.followers{
+    margin: 2% 0;
+    display: flex;
+    gap: 5%;
+    color: gray;
+}
+.followers strong{
+    color: #eee;
+}
+.nav{
+    margin: 3%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+}
+.pinned{
+    margin: 2% 0 2% 10%;
+}
+.tweet{
+    margin: 2% 3%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.tweet-pic img{
+    width: 3rem;
+    border-radius: 50%;
+}
+.prof-name{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.tweet-profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.tweet-profile p{
+    color: gray;
+}
+.more{
+    position: relative;
+    margin-top: -10%;
+}
